@@ -9,7 +9,9 @@ body {
 .flex-container {
     display: flex;
     flex-direction: column;
-    color: rgba(243, 240, 231, 0.938);
+    width: 1000px;
+    background-color: rgba(253, 253, 249, 0.808);
+    text-align: left;
 }
 h1 {
     color:black;
@@ -25,4 +27,10 @@ img {
     width: 900px;
     height: auto;
 }
+.center-images {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
   
